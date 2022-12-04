@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH", "c6a1fabd1994a2aa81e90bb5f6d896c0")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "5937939192:AAFCSQ8PaDw1zJr_WkuGpf0XcouPhppknJw")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Wynk:wynk@cluster0.neb59rx.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "180")
@@ -43,9 +43,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "")
+    "SUPPORT_CHANNEL", "https://t.me/StarbotUpdate")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "")
+    "SUPPORT_GROUP", "https://t.me/Super_Star_Singing_Group")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
