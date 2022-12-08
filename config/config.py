@@ -7,12 +7,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "20583077"))
-API_HASH = getenv("API_HASH", "c6a1fabd1994a2aa81e90bb5f6d896c0")
+API_ID = int(getenv("API_ID", "24476192"))
+API_HASH = getenv("API_HASH", "f47691a2c89c0461a39d34ce89e3d6bd")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5937939192:AAFCSQ8PaDw1zJr_WkuGpf0XcouPhppknJw")
+BOT_TOKEN = getenv("BOT_TOKEN", "5844379018:AAGKVjB6FCXDwgGodBy1RXMh3cd5uXmAQ_w")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Wynk:wynk@cluster0.neb59rx.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Music:music0@cluster0.kvm8fhu.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "180")
@@ -24,10 +24,10 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001701768647"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Wynk Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝙎𝙐𝙋𝙀𝙍 𝙎𝙏𝘼𝙍 𝙈𝙐𝙎𝙄𝘾")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "2029070658").split())
+    map(int, getenv("OWNER_ID", "1987866264").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
